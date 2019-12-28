@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "kamcliAPI"
+version = "0.1.0"
+description = ""
+authors = ["Mathias WOLFF <mathias@celea.org>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+fastapi = "^0.45.0"
+uvicorn = "^0.11.1"
+click = "^7.0"
+mypy = "^0.761"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+black = "^19.10b0"
+flake8 = "^3.7.9"
+flake8-colors = "^0.1.6"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
